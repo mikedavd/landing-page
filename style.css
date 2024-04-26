@@ -1,17 +1,38 @@
 body {
     font-family: roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
 
 .top {
+    display: flex;
     background-color: #1F2937;
+    flex-direction: column;
 }
 
 .header {
+    display: flex;
     color: #E5E7EB;
 }
 
-.links {
+ul {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    align: right;
+}
+
+li a {
+    display: block;
     color: #E5E7EB;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
 }
 
 .hero {
@@ -32,6 +53,10 @@ body {
 .signup {
     color: #F9FAF8;
     background-color: #3882F6;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    border-color: #F9FAF8;
 }
 
 .middle {
