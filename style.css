@@ -24,7 +24,7 @@ ul {
 }
 
 li {
-    align: right;
+    box-align: right;
 }
 
 li a {
