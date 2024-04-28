@@ -14,25 +14,32 @@ body {
 .header {
     display: flex;
     color: #E5E7EB;
+    margin: 20px;
 }
 
 ul {
-    display: inline;
+    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
-
-li {
-    box-align: right;
+    overflow: hidden;
 }
 
 li a {
-    display: block;
+    display: inline-end;
     color: #E5E7EB;
     text-align: center;
     padding: 16px;
     text-decoration: none;
+}
+
+.titleimg {
+    display: inline;
+}
+
+.titleimg img {
+    height: 225px;
+    width: auto;
 }
 
 .flashy {
@@ -47,6 +54,7 @@ li a {
 }
 
 .signup {
+    border: 2px solid white;
     color: #F9FAF8;
     background-color: #3882F6;
     border-radius: 10px;
